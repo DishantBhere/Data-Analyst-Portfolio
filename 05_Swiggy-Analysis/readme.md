@@ -134,15 +134,6 @@ Dishes were classified into four pricing segments using the SQL `CASE WHEN` expr
 | Non-Veg | 56,826 | 28.5% |
 | **Total** | **197,430** | **100%** |
 
-**Key findings:**
-
-- Veg dishes represent approximately **71.5%** of the dataset.
-- Non-Veg dishes account for approximately **28.5%**.
-- All 28 cities have more Veg listings than Non-Veg listings.
-- The combined **Weekday + Veg** segment contains 99,745 records, with an average price of approximately ₹240.
-
-**Business implication:** Veg listings represent the largest food-type segment in the dataset, making them an important category for understanding menu composition and pricing.
-
 ### 5. 📅 Time-Based Ordering Trends
 
 | Metric | Finding |
@@ -156,17 +147,6 @@ Dishes were classified into four pricing segments using the SQL `CASE WHEN` expr
 | Highest-Order Quarter | Q2 — 74,163 orders |
 | Highest-Order Month | January — 25,398 orders |
 | Highest Average-Price Quarter | Q1 — ₹269.07 |
-
-**Key findings:**
-
-- Saturday records the highest ordering activity, followed closely by Sunday.
-- Tuesday is the slowest day in the dataset.
-- Weekdays account for **70.92% of all orders**, compared with 29.08% on weekends.
-- The busiest recorded date is 22 February 2025, with 1,550 orders.
-- Q2 leads quarterly order volume, while Q1 has the highest average dish price.
-- January records the highest monthly order volume.
-
-**Business implication:** The weekday-heavy distribution suggests that routine ordering activity may be more significant than weekend-only demand. Businesses could use these patterns to plan staffing, promotions, and menu availability.
 
 ### 6. ⭐ Ratings & Restaurant Performance
 
@@ -344,22 +324,7 @@ The dataset was used to analyze food listings, pricing patterns, geographic dist
 
 ---
 
-## 🚀 Key Learnings
 
-Through this project, I strengthened my ability to:
-
-- Perform end-to-end exploratory data analysis using SQL.
-- Write queries to answer practical business questions.
-- Apply aggregation and filtering to summarize large datasets.
-- Use window functions to calculate percentage distributions.
-- Perform date-based analysis to identify ordering trends.
-- Segment data using conditional logic.
-- Create reusable views for analytical reporting.
-- Develop stored procedures for parameterized queries.
-- Validate data quality before drawing conclusions.
-- Translate query results into actionable business insights.
-
----
 
 ## 👨‍💻 Author
 
@@ -371,6 +336,3 @@ Through this project, I strengthened my ability to:
 
 ---
 
-<p align="center">
-  <strong>Turning Data into Insights, One Query at a Time. 📊</strong>
-</p>
