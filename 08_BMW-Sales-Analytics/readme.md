@@ -2,7 +2,7 @@
 
 ![Landing Page](Screenshots/1.%20Home.png)
 
-> **Self-Made Project** | Project 13  
+
 > A 7-page professional Tableau dashboard analyzing BMW car sales across 6 models and 4 regions — built on a custom PowerPoint-designed background with a premium BMW dark blue theme. Covers 200 sales records, 1,974 units sold, and $117.28M total revenue.
 
 ---
