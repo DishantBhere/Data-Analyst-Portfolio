@@ -1,187 +1,190 @@
-# Ecommerce Analytics Dashboard 🛒
+# 🛒 Ecommerce Analytics Dashboard
 
 ![Dashboard Preview](Screenshots/2.%20Executive%20Overview.png)
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
+  <img src="https://img.shields.io/badge/DAX-Advanced-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Transactions-1,000-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Report%20Pages-6-purple?style=for-the-badge">
+</p>
+
 > **Self-Made Project** | Portfolio Project  
-> A 6-page interactive Power BI dashboard analyzing 1,000 ecommerce transactions across Jan 2024 – Dec 2025 — covering revenue, profit, customer behaviour, return orders, and marketing channel performance using advanced DAX, Power Query, and field parameters.
+> A 6-page interactive Power BI dashboard analyzing 1,000 ecommerce transactions across Jan 2024 – Dec 2025, covering revenue, profit, customer behaviour, returns, and marketing performance using DAX, Power Query, and field parameters.
 
 ---
- 
+
 ## 📌 Project Overview
 
-This project performs a complete business analysis on an ecommerce transactions dataset to answer real-world questions about profitability, customer retention, return order impact, and marketing effectiveness. The dashboard is designed as an executive-level report with 6 dedicated pages — each solving a specific business problem.
-
----
+An end-to-end ecommerce analytics project exploring profitability, customer retention, return orders, and marketing effectiveness through six interactive Power BI dashboard pages.
 
 ## ❓ Business Questions Answered
 
 | # | Business Question |
-|---|------------------|
-| 1 | Which categories and products drive revenue vs profit — and where is discounting causing orders to turn negative? |
-| 2 | Who are the highest-value customers and how much revenue comes from repeat vs one-time buyers? |
-| 3 | What is driving returns and which categories or shipping modes hurt net profit once returns are factored in? |
-| 4 | Which marketing channel acquires the most valuable orders and how should Q4 seasonality shape inventory and spend? |
+|:--:|---|
+| 1 | Which categories and products drive revenue vs. profit, and where do discounts cause losses? |
+| 2 | Who are the highest-value customers, and how much revenue comes from repeat buyers? |
+| 3 | What drives returns, and which categories or shipping modes impact profitability? |
+| 4 | Which marketing channels perform best, and how does seasonality influence sales? |
 
 ---
 
 ## 🛠️ Tools Used
 
 | Tool | Purpose |
-|------|---------|
-| **Power BI Desktop** | 6-page interactive dashboard — DAX, field parameters, Power Query, data modeling |
-| **Power Query** | Data transformation, calculated column setup, data type formatting |
-| **DAX** | 20+ measures and calculated columns for KPIs, customer segmentation, return analysis |
-| **Microsoft Excel** | Raw dataset source (.xlsx) |
+|---|---|
+| **Power BI Desktop** | Interactive dashboard, DAX, data modeling, and field parameters |
+| **Power Query** | Data transformation and formatting |
+| **DAX** | 20+ measures and calculated columns |
+| **Microsoft Excel** | Raw dataset source |
 
 ---
 
 ## 📊 Dashboard Pages
 
-### Page 1 — Home
+### 🏠 Page 1 — Home
 ![Home](Screenshots/1.%20Home.png)
-Navigation landing page with links to all 5 report pages.
 
-### Page 2 — Executive Overview
+Navigation landing page linking to all five report pages.
+
+### 📈 Page 2 — Executive Overview
 ![Executive Overview](Screenshots/2.%20Executive%20Overview.png)
 
 | KPI | Value |
-|-----|-------|
+|---|---:|
 | Total Revenue | 236.76K |
 | Total Profit | 66.19K |
 | Total Orders | 1,000 |
 | Total Customers | 326 |
-| Profit Margin % | 27.96% |
-| Return Rate % | 8.20% |
+| Profit Margin | 27.96% |
+| Return Rate | 8.20% |
 
-Visuals: Monthly revenue/profit trend line, revenue by category donut, revenue by country donut, revenue & profit by region bar chart, country/city performance table.
+**Visuals:** Monthly revenue/profit trends, category and country revenue, regional performance, and country/city table.
 
-### Page 3 — Revenue & Profit Analysis
+### 💰 Page 3 — Revenue & Profit Analysis
 ![Revenue & Profit](Screenshots/3.%20Revenue%20&%20Profit%20Analysis.png)
 
-Additional KPIs: Total Cost (170.57K) | Avg Selling Price (169.78)
+**Additional KPIs:** Total Cost (170.57K) · Average Selling Price (169.78)
 
-Visuals: Field-parameter toggle (Revenue ↔ Profit), profit by sub-category bar, profit by category donut, profit by payment method, top 5 and bottom 5 products by profit, **profit by discount bucket** — showing profit turns negative above 20% discount.
+**Visuals:** Revenue ↔ Profit toggle, profit by sub-category, category, and payment method, top/bottom 5 products, and profit by discount bucket.
 
-### Page 4 — Customer Analysis
+### 👥 Page 4 — Customer Analysis
 ![Customer Analysis](Screenshots/4.%20Customer%20Analysis.png)
 
 | KPI | Value |
-|-----|-------|
+|---|---:|
 | Revenue per Customer | 726.27 |
 | Orders per Customer | 3.07 |
 | Repeat Customers | 275 of 326 (84%) |
 | Repeat Customer Revenue | 225K (95.2%) |
-| One-time Customers | 51 |
+| One-Time Customers | 51 |
 
-Visuals: Customers by payment method, customer type donut (Repeat vs One-time), customers by segment (Consumer/Corporate/Home Office), avg order value by segment, top customers table.
+**Visuals:** Payment methods, customer types, customer segments, average order value, and top customers.
 
-### Page 5 — Return Orders Insight
+### 🔄 Page 5 — Return Orders Insight
 ![Return Orders](Screenshots/5.%20Return%20Orders.png)
 
 | KPI | Value |
-|-----|-------|
+|---|---:|
 | Total Return Orders | 82 |
-| Return Rate % | 8.20% |
+| Return Rate | 8.20% |
 | Lost Revenue | 18.37K |
 | Lost Profit | 5.12K |
 
-Visuals: Return rate % by category (Fashion highest at 14.16%), profit vs loss profit by category, total profit vs loss profit donut, return rate by shipping mode, monthly returns trend, shipping mode performance table.
+**Visuals:** Return rate by category and shipping mode, profit loss analysis, monthly returns, and shipping performance.
 
-### Page 6 — Marketing & Seasonal Analysis
+### 📣 Page 6 — Marketing & Seasonal Analysis
 ![Marketing & Seasonal](Screenshots/6.%20Marketing%20&%20Seasonal%20Insights.png)
 
 | KPI | Value |
-|-----|-------|
+|---|---|
 | Top Marketing Channel | Organic Search |
 | Top Sales Month | December |
 
-Visuals: Marketing channel by revenue & profit, channel by avg order value per segment, weekend vs weekday comparison, quarterly revenue by channel line chart, channel by customer count.
+**Visuals:** Channel revenue/profit, average order value, weekday vs. weekend sales, quarterly trends, and customer count.
 
 ---
 
 ## 🔑 Key Business Insights
 
 ### 💰 Revenue & Profit
-- **Electronics drives 53.23% of revenue** but only **30.84% of profit** — revenue-profit mismatch signals over-discounting or high costs
-- **Discounts above 20%** consistently push orders into loss — shown clearly in the Profit by Discount Bucket chart
-- Total Cost is **170.57K** against revenue of **236.76K** — margin of 27.96%
+- **Electronics generates 53.23% of revenue but only 30.84% of profit.**
+- Discounts above **20%** push orders into losses in the discount analysis.
+- Total Revenue: **236.76K** | Total Cost: **170.57K** | Profit Margin: **27.96%**.
 
 ### 👥 Customer Behaviour
-- **275 of 326 customers (84%)** are repeat buyers
-- Repeat customers drive **95.2% (225K)** of total revenue — retention is the biggest revenue lever
-- Revenue per Customer: **726.27** | Orders per Customer: **3.07**
-- One-time buyers (51 customers) contribute only **4.8%** of revenue
+- **275 of 326 customers (84%)** are repeat buyers.
+- Repeat customers generate **95.2% of revenue (225K)**.
+- Revenue per Customer: **726.27** | Orders per Customer: **3.07**.
 
 ### 🔄 Returns
-- **Fashion has the highest return rate at 14.16%** — more than double any other category
-- Returns cost the business **7.18% of total profit** (5.12K lost profit)
-- Lost revenue from returns: **18.37K**
-- Shipping mode impacts return rate — Same-Day vs Standard vs Express compared
+- **Fashion has the highest return rate at 14.16%.**
+- Lost Revenue: **18.37K** | Lost Profit: **5.12K**.
+- Shipping modes are compared to identify differences in return rates.
 
 ### 📣 Marketing & Seasonality
-- **Organic Search** is the top channel by both revenue and profit
-- **December is the peak month** — Q4 seasonality should drive inventory and spend planning
-- **Weekday sales are ~2× weekend sales** — promotions should focus on weekdays
+- **Organic Search** leads in revenue and profit.
+- **December** records the highest sales.
+- Weekday sales are approximately **2× weekend sales**.
 
 ---
 
 ## 🧮 DAX Measures & Calculated Columns
 
-### Key Measures (20+)
+### Key Measures
+
 | Measure | Description |
-|---------|-------------|
-| `Total Revenue` | SUM of net%20revenue |
-| `Total Profit` | SUM of profit |
-| `Total Cost` | SUM of unit%20cost × quantity |
-| `Total Orders` | DISTINCTCOUNT of order%20id |
-| `Total Customers` | DISTINCTCOUNT of customer%20id |
-| `Average Order Value` | Total Revenue / Total Orders |
-| `Profit Margin %` | Total Profit / Total Revenue × 100 |
-| `Avg Selling Price` | Total Revenue / SUM(quantity) |
+|---|---|
+| `Total Revenue` | Sum of net revenue |
+| `Total Profit` | Sum of profit |
+| `Total Cost` | Unit cost × quantity |
+| `Total Orders` | Distinct count of order IDs |
+| `Total Customers` | Distinct count of customer IDs |
+| `Average Order Value` | Revenue / Orders |
+| `Profit Margin %` | Profit / Revenue × 100 |
+| `Avg Selling Price` | Revenue / Quantity |
 | `Return Rate %` | Return Orders / Total Orders × 100 |
-| `Profit Lost to Returns` | Profit on returned orders |
+| `Profit Lost to Returns` | Profit associated with returned orders |
 | `Net Profit Excl Returns` | Total Profit − Profit Lost |
 | `Revenue from Repeat Customers %` | Repeat Revenue / Total Revenue |
-| `Revenue per Customer` | Total Revenue / Total Customers |
-| `Orders per Customer` | Total Orders / Total Customers |
-| `Loss Making Orders Count` | COUNT where profit < 0 |
+| `Revenue per Customer` | Revenue / Customers |
+| `Orders per Customer` | Orders / Customers |
+| `Loss Making Orders Count` | Orders with profit < 0 |
 | `Loss Making Orders %` | Loss Orders / Total Orders |
-| `Avg Discount on Loss Orders` | AVG discount on loss-making orders |
+| `Avg Discount on Loss Orders` | Average discount on loss-making orders |
 
 ### Calculated Columns
+
 | Column | Logic |
-|--------|-------|
-| `Discount Bucket` | Groups discount%20pct into 0–5%, 5–10%, 10–15%, 15–20%, 20%+ |
-| `Customer Type` | Repeat (orders > 1) vs One-time (orders = 1) |
-| `Customer Order Count` | COUNT of orders per customer%20id |
+|---|---|
+| `Discount Bucket` | 0–5%, 5–10%, 10–15%, 15–20%, 20%+ |
+| `Customer Type` | Repeat vs. One-time |
+| `Customer Order Count` | Orders per customer |
 
 ### Field Parameters
-- **Revenue ↔ Profit Toggle** on Revenue & Profit page — switches all visuals between revenue and profit view
+- **Revenue ↔ Profit Toggle:** Dynamically switches visuals between revenue and profit.
 
 ---
 
 ## 📁 Project Structure
 
-```
+```text
 Ecommerce-Analytics-Dashboard/
 │
-├── README.md                          ← You are here
-│
+├── README.md
 ├── raw-data/
-│   ├── ecommerce%20data.xlsx            ← Raw dataset — 1,000 rows
+│   ├── ecommerce data.xlsx
 │   └── README.md
-│
 ├── powerbi/
-│   ├── Ecommerce%20Analytics.pbix       ← Power BI dashboard file
+│   ├── Ecommerce Analytics.pbix
 │   └── README.md
-│
 └── Screenshots/
     ├── Home.png
-    ├── Executive%20Overview.png
-    ├── Revenue%20Profit.png
-    ├── Customer%20Analysis.png
-    ├── Return%20Orders.png
-    ├── Marketing%20Seasonal.png
+    ├── Executive Overview.png
+    ├── Revenue Profit.png
+    ├── Customer Analysis.png
+    ├── Return Orders.png
+    ├── Marketing Seasonal.png
     └── README.md
 ```
 
@@ -189,30 +192,30 @@ Ecommerce-Analytics-Dashboard/
 
 ## 🎯 Skills Demonstrated
 
-| Skill | How Used |
-|-------|---------|
-| **DAX** | 20+ measures — KPIs, return analysis, customer segmentation, discount impact |
-| **Power Query** | Data transformation, column formatting, calculated column setup |
-| **Data Modeling** | Star schema — fact table + dimension relationships |
-| **Field Parameters** | Dynamic Revenue ↔ Profit toggle on visuals |
-| **Business Analysis** | Discount impact, return ROI, customer retention, channel attribution |
-| **Dashboard Design** | 6-page navigation, slicers, conditional formatting, KPI cards |
+| Skill | Application |
+|---|---|
+| **DAX** | KPIs, return analysis, customer segmentation, discount impact |
+| **Power Query** | Data transformation and formatting |
+| **Data Modeling** | Fact table and dimension relationships |
+| **Field Parameters** | Dynamic Revenue ↔ Profit toggle |
+| **Business Analysis** | Profitability, retention, returns, and marketing |
+| **Dashboard Design** | Six-page navigation, slicers, KPI cards, and conditional formatting |
 
 ---
 
 ## 🔗 How to Use
 
-1. Download `Ecommerce%20Analytics.pbix`
-2. Open with **Microsoft Power BI Desktop** (free)
-3. All data is embedded — no external connections needed
-4. Use slicers on each page to filter by date, category, region, channel
+1. Download `Ecommerce Analytics.pbix`.
+2. Open it in **Microsoft Power BI Desktop**.
+3. Use the dashboard navigation to explore all six pages.
+4. Interact with available slicers and visuals to analyze business performance.
 
 ---
 
 ## 👤 Author
 
-**Piyush Dave**
-Data Analyst | SQL · Power BI · Tableau · Excel · Python
+**Piyush Dave**  
+*Data Analyst | SQL · Power BI · Tableau · Excel · Python*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/piyush-dave-0980a03a8)
 [![Tableau](https://img.shields.io/badge/Tableau-Public-orange?logo=tableau)](https://public.tableau.com/app/profile/piyushdave/vizzes)
