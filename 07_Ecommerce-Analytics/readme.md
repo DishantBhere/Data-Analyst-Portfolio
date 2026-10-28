@@ -105,29 +105,6 @@ Navigation landing page linking to all five report pages.
 
 ---
 
-## 🔑 Key Business Insights
-
-### 💰 Revenue & Profit
-- **Electronics generates 53.23% of revenue but only 30.84% of profit.**
-- Discounts above **20%** push orders into losses in the discount analysis.
-- Total Revenue: **236.76K** | Total Cost: **170.57K** | Profit Margin: **27.96%**.
-
-### 👥 Customer Behaviour
-- **275 of 326 customers (84%)** are repeat buyers.
-- Repeat customers generate **95.2% of revenue (225K)**.
-- Revenue per Customer: **726.27** | Orders per Customer: **3.07**.
-
-### 🔄 Returns
-- **Fashion has the highest return rate at 14.16%.**
-- Lost Revenue: **18.37K** | Lost Profit: **5.12K**.
-- Shipping modes are compared to identify differences in return rates.
-
-### 📣 Marketing & Seasonality
-- **Organic Search** leads in revenue and profit.
-- **December** records the highest sales.
-- Weekday sales are approximately **2× weekend sales**.
-
----
 
 ## 🧮 DAX Measures & Calculated Columns
 
@@ -201,22 +178,10 @@ Ecommerce-Analytics-Dashboard/
 | **Business Analysis** | Profitability, retention, returns, and marketing |
 | **Dashboard Design** | Six-page navigation, slicers, KPI cards, and conditional formatting |
 
----
 
-## 🔗 How to Use
-
-1. Download `Ecommerce Analytics.pbix`.
-2. Open it in **Microsoft Power BI Desktop**.
-3. Use the dashboard navigation to explore all six pages.
-4. Interact with available slicers and visuals to analyze business performance.
-
----
 
 ## 👤 Author
 
-**Piyush Dave**  
+**Dishant Bhere**  
 *Data Analyst | SQL · Power BI · Tableau · Excel · Python*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/piyush-dave-0980a03a8)
-[![Tableau](https://img.shields.io/badge/Tableau-Public-orange?logo=tableau)](https://public.tableau.com/app/profile/piyushdave/vizzes)
-[![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black?logo=github)](https://github.com/PiyushDave30)
