@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/Report%20Pages-6-purple?style=for-the-badge">
 </p>
 
-> **Self-Made Project** | Portfolio Project  
+
 > A 6-page interactive Power BI dashboard analyzing 1,000 ecommerce transactions across Jan 2024 – Dec 2025, covering revenue, profit, customer behaviour, returns, and marketing performance using DAX, Power Query, and field parameters.
 
 ---
