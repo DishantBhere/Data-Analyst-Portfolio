@@ -59,34 +59,13 @@ This project analyzes a **fictional Indian sales dataset** covering managers, te
 
 ## 🖼️ Dashboard Pages
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <b>👔 Manager Performance Overview</b><br><br>
-      <img src="Screenshots/I1.png" alt="Manager">
-    </td>
-    <td align="center" width="50%">
-      <b>💰 Sales Performance Overview</b><br><br>
-      <img src="Screenshots/I4.png" alt="Sales">
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <b>📈 Profit Performance Overview</b><br><br>
-      <img src="Screenshots/I2.png" alt="Profit">
-    </td>
-    <td align="center" width="50%">
-      <b>🗂️ Category Analysis</b><br><br>
-      <img src="Screenshots/I5.png" alt="Category">
-    </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2">
-      <b>📋 Data Table</b><br><br>
-      <img src="Screenshots/I3.png" alt="Table">
-    </td>
-  </tr>
-</table>
+| Page | Preview |
+|------|---------|
+| 👔 Manager Performance Overview | ![Manager](Screenshots/I1.png) |
+| 💰 Sales Performance Overview | ![Sales](Screenshots/I4.png) |
+| 📈 Profit Performance Overview | ![Profit](Screenshots/I2.png) |
+| 🗂️ Category Analysis | ![Category](Screenshots/I5.png) |
+| 📋 Data Table | ![Table](Screenshots/I3.png) |
 
 ---
 
