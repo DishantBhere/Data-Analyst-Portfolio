@@ -1,139 +1,129 @@
-# BMW Sales Analytics Dashboard 🚗
+# 🚗 BMW Sales Analytics Dashboard
 
 ![Landing Page](Screenshots/1.%20Home.png)
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Tableau-Dashboard-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau">
+  <img src="https://img.shields.io/badge/PowerPoint-Custom%20Design-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white" alt="PowerPoint">
+  <img src="https://img.shields.io/badge/Models-6-1C69D3?style=for-the-badge" alt="6 Models">
+  <img src="https://img.shields.io/badge/Records-200-2ECC71?style=for-the-badge" alt="200 Records">
+</p>
 
-> A 7-page professional Tableau dashboard analyzing BMW car sales across 6 models and 4 regions — built on a custom PowerPoint-designed background with a premium BMW dark blue theme. Covers 200 sales records, 1,974 units sold, and $117.28M total revenue.
+> A 7-page professional Tableau dashboard analyzing BMW sales across 6 models and 4 regions. Features custom PowerPoint-designed backgrounds, a premium BMW dark blue theme, and interactive metric and dimension selectors.
+
+**📊 200 Records · 🚘 1,974 Units Sold · 💰 $117.28M Revenue**
 
 ---
 
 ## 📌 Project Overview
 
-This project analyzes BMW automobile sales data to uncover performance patterns across models, regions, revenue, and profitability. The dashboard features a fully custom-designed background built in PowerPoint, a branded landing/navigation page, and a **Quick Analysis** page with dynamic metric × dimension selectors — making it one of the most interactive dashboards in this portfolio.
+An interactive BMW sales analytics project exploring model performance, regional sales, revenue, and profitability through seven dashboard pages.
 
 **Key business questions answered:**
 - Which BMW model generates the most revenue and profit?
-- How do 4 regions compare in sales volume and profitability?
+- How do the four regions compare in sales and profitability?
 - Which model has the highest profit margin?
 - What is the relationship between units sold and profit?
-- How are prices and unit volumes distributed across the dataset?
+- How are prices and unit volumes distributed?
 
 ---
 
 ## 🛠️ Tools Used
 
 | Tool | Purpose |
-|------|---------|
-| **Tableau Desktop** | 7-page interactive dashboard with parameters, calculated fields, lollipop charts, scatter plots, heatmaps |
-| **PowerPoint** | Custom background design for all 7 pages — Premium BMW Dark Blue theme |
+|---|---|
+| **Tableau Desktop** | Interactive dashboards, parameters, calculated fields, and visualizations |
+| **Microsoft PowerPoint** | Custom backgrounds with a premium BMW dark blue theme |
 
 ---
 
-## 📊 Dashboard Pages — All 7
+## 📊 Dashboard Pages
 
-### Page 1 — Landing / Home
+### 🏠 Page 1 — Landing / Home
 ![Home](Screenshots/1.%20Home.png)
-- BMW logo + branding
-- 6 navigation cards — one per analysis page
-- Data summary: 6 Models | 4 Regions | 200 Records
-- Key stats: Units 1,974 | Revenue $117.28M | Profit $32.87M
-- Click-to-navigate buttons for each page
 
-### Page 2 — Executive Overview
+BMW branding, six navigation cards, dataset summary, and key business KPIs.
+
+### 📈 Page 2 — Executive Overview
 ![Overview](Screenshots/2.%20Overview.png)
-- 5 KPIs: Total Revenue, Total Units, Total Profit, Avg Price, Profit Margin %
-- Revenue by Model — bar chart
-- Revenue by Region — horizontal bar chart
-- Sales Trend — stacked bar by Model × Region
-- Filters: Model, Region, Price Range
 
-### Page 3 — Model Analysis
+Five KPIs, revenue by model and region, sales trends, and interactive filters.
+
+### 🚘 Page 3 — Model Analysis
 ![Model](Screenshots/3.%20Model.png)
-- 5 KPIs: Top Model, Units X3, Units X1, Avg Price, Top Profit Model
-- Units Sold by Model — **lollipop chart**
-- Revenue by Model — bar chart
-- Profit by Model — **green bar chart**
-- Avg Price by Model — horizontal bar chart
 
-### Page 4 — Region Analysis
+Model-wise units sold, revenue, profit, average price, and performance KPIs.
+
+### 🗺️ Page 4 — Region Analysis
 ![Region](Screenshots/4.%20Region.png)
-- 5 KPIs: Top Region, North Units, South Units, East Units, West Units
-- Units by Region — **lollipop chart**
-- Revenue by Region — horizontal bar chart
-- Model × Region Breakdown — **cross-tab table**
-- Profit by Region — horizontal green bar chart
 
-### Page 5 — Revenue & Profit
+Regional units, revenue, profit, and model-wise comparisons.
+
+### 💰 Page 5 — Revenue & Profit
 ![Revenue](Screenshots/5.%20Revenue%20&%20Profit.png)
-- 5 KPIs: Top Revenue Model, Total Cost, Total Profit, Profit Margin %, Avg Profit/Record
-- Revenue vs Profit by Model — grouped bar
-- Profit Margin by Model — horizontal green bar
-- Revenue vs Cost Comparison — grouped bar
-- Profit Distribution — **Treemap by Model × Region**
 
-### Page 6 — Time Analysis
+Revenue versus profit, total cost, profit margins, and profit distribution by model and region.
+
+### 📉 Page 6 — Time Analysis
 ![Time](Screenshots/6.%20Time%20Analysis.png)
-- 5 KPIs: Total Records, Peak Units, Min Units, Avg Units, Price Range
-- Price Distribution by Model — **stacked histogram**
-- Units Sold Distribution — **stacked histogram**
-- Profit vs Units Sold — **scatter plot with trend lines**
 
-### Page 7 — Quick Analysis
+Price and unit distributions, histograms, and a profit-versus-units scatter plot.
+
+### ⚡ Page 7 — Quick Analysis
 ![Quick](Screenshots/7.&20Quick%20Analysis.png)
-- **Metric Selector** — 5 options: Total Revenue, Total Profit, Units Sold, Avg Price, Profit Margin %
-- **Dimension Selector** — 5 options: Model, Region, Price Range, Unit Range, Profit Tier
-- Dynamic bar chart — updates instantly on any selection
-- Selected Metric KPI card
-- Distribution donut — updates with dimension selection
+
+Dynamic analysis using metric and dimension selectors, a KPI card, and a distribution donut chart.
 
 ---
 
 ## 🔑 Key Business Insights
 
 ### 📊 Overall KPIs
+
 | Metric | Value |
-|--------|-------|
+|---|---:|
 | Total Revenue | $117,285,097 |
 | Total Cost | $84,406,943 |
 | Total Profit | $32,878,154 |
-| Total Units Sold | 1,974 |
-| Avg Price per Car | $59,361 |
+| Units Sold | 1,974 |
+| Average Price per Car | $59,361 |
 | Profit Margin | 28.03% |
-| Avg Profit per Record | $164,391 |
+| Average Profit per Record | $164,391 |
 | Total Records | 200 |
-| Total Models | 6 |
-| Total Regions | 4 |
 
-### 🚗 Model Performance
-| Model | Units | Revenue | Profit | Margin | Avg Price |
-|-------|-------|---------|--------|--------|-----------|
-| BMW X3 | 421 | $25.27M | $7.16M | 28.34% | $60,951 |
-| BMW 7 Series | 364 | $22.52M | $6.37M | 28.28% | $62,533 |
-| BMW X1 | 385 | $22.51M | $6.76M | **30.02%** | $57,368 |
-| BMW 3 Series | 355 | $21.37M | $5.89M | 27.55% | $59,800 |
-| BMW 5 Series | 236 | $13.91M | $3.47M | 24.93% | $59,709 |
-| BMW X5 | 213 | $11.71M | $3.24M | 27.64% | $54,580 |
+### 🚘 Model Performance
 
-- **BMW X3** leads in Revenue (21.53%) and Units Sold (421)
-- **BMW X1** has the highest Profit Margin at **30.02%** — most efficient model
-- **BMW 5 Series** has the lowest margin at 24.93% — needs pricing review
-- **BMW 7 Series** commands the highest average price at $62,533
+| Model | Units | Revenue | Profit | Margin |
+|---|---:|---:|---:|---:|
+| BMW X3 | 421 | $25.27M | $7.16M | 28.34% |
+| BMW 7 Series | 364 | $22.52M | $6.37M | 28.28% |
+| BMW X1 | 385 | $22.51M | $6.76M | **30.02%** |
+| BMW 3 Series | 355 | $21.37M | $5.89M | 27.55% |
+| BMW 5 Series | 236 | $13.91M | $3.47M | 24.93% |
+| BMW X5 | 213 | $11.71M | $3.24M | 27.64% |
+
+- **BMW X3:** Highest revenue and unit sales.
+- **BMW X1:** Highest profit margin at 30.02%.
+- **BMW 5 Series:** Lowest profit margin at 24.93%.
+- **BMW 7 Series:** Highest average price at $62,533.
 
 ### 🗺️ Regional Performance
+
 | Region | Units | Revenue | Profit |
-|--------|-------|---------|--------|
+|---|---:|---:|---:|
 | North | 560 | $33.76M | $9.00M |
 | West | 482 | $30.49M | $8.33M |
 | South | 474 | $27.57M | $8.07M |
 | East | 458 | $25.46M | $7.48M |
 
-- **North** leads all 4 regions in units, revenue, and profit
-- **East** is the weakest region — expansion opportunity
-- Regions are fairly balanced — no single region dominates overwhelmingly
+- **North:** Leads in units, revenue, and profit.
+- **East:** Lowest regional sales and profit, indicating a potential growth opportunity.
+- **Regional distribution:** Sales are spread relatively evenly across the four regions.
 
-### 🔝 Top 10 Records by Profit
+### 🏆 Top 10 Records by Profit
+
 | Rank | Model | Region | Units | Price | Profit |
-|------|-------|--------|-------|-------|--------|
+|---:|---|---|---:|---:|---:|
 | 1 | BMW 7 Series | West | 19 | $85,766 | $640,571 |
 | 2 | BMW X1 | South | 18 | $89,383 | $589,493 |
 | 3 | BMW 7 Series | East | 16 | $82,796 | $529,035 |
@@ -146,58 +136,59 @@ This project analyzes BMW automobile sales data to uncover performance patterns 
 | 10 | BMW X3 | South | 19 | $58,312 | $400,227 |
 
 ### 📈 Distribution Insights
-- **Price Range:** $30,009 to $89,581 — spread evenly across all price buckets
-- **Units Range:** 1 to 19 units per record — average 9.87
-- **Profit vs Units:** Strong positive correlation — more units = more profit
-- **Peak Units:** 19 (BMW 7 Series, West) generating $640,571 profit
-- **Morning revenue** pattern not applicable — no time data in dataset
+
+- **Price range:** $30,009–$89,581.
+- **Units per record:** 1–19, averaging 9.87.
+- **Profit vs. units:** Positive relationship between units sold and profit.
+- **Highest-profit record:** $640,571 from a BMW 7 Series record in the West.
+- **Time analysis:** No time-based fields are available in the dataset.
 
 ---
 
 ## 🧮 Calculated Fields Used
 
-| Field Name | Formula |
-|------------|---------|
+| Field | Purpose |
+|---|---|
 | `Revenue` | `[Price] * [Units Sold]` |
 | `Total Cost` | `[Cost] * [Units Sold]` |
 | `Profit Margin %` | `SUM([Profit]) / SUM([Revenue]) * 100` |
 | `Avg Revenue per Car` | `SUM([Revenue]) / SUM([Units Sold])` |
-| `Price Range` | CASE WHEN — Budget/Mid-Range/Premium/Luxury |
-| `Unit Range` | CASE WHEN — Low/Medium/High/Very High |
-| `Profit Tier` | CASE WHEN — Low/Medium/High/Top |
-| `Row Number` | `INDEX()` — for trend analysis |
-| `Selected Metric Value` | Dynamic CF using Select Metric parameter |
-| `Selected Dimension` | Dynamic CF using Select Dimension parameter |
+| `Price Range` | Budget / Mid-Range / Premium / Luxury |
+| `Unit Range` | Low / Medium / High / Very High |
+| `Profit Tier` | Low / Medium / High / Top |
+| `Row Number` | `INDEX()` |
+| `Selected Metric Value` | Dynamic calculation using the metric parameter |
+| `Selected Dimension` | Dynamic calculation using the dimension parameter |
 
 ---
 
 ## 📁 Project Structure
 
-```
+```text
 13_BMW-Sales-Analytics/
 │
-├── README.md                        ← You are here
+├── README.md
 │
 ├── data/
-│   ├── bmw_sales_dataset.xlsx       ← Raw dataset — 200 records
+│   ├── bmw_sales_dataset.xlsx
 │   └── README.md
 │
 ├── tableau/
-│   ├── tableau_link.txt             ← Tableau Public live link
+│   ├── tableau_link.txt
 │   └── README.md
 │
 ├── background/
-│   ├── BMW_Dashboard_Background_1668x861.pptx  ← Custom PPT backgrounds
+│   ├── BMW_Dashboard_Background_1668x861.pptx
 │   └── README.md
 │
 └── Screenshots/
-    ├── BMW_Home.png                 ← Page 1 — Landing/Navigation
-    ├── BMW_Overview.png             ← Page 2 — Executive Overview
-    ├── BMW_Model.png                ← Page 3 — Model Analysis
-    ├── BMW_Region.png               ← Page 4 — Region Analysis
-    ├── BMW_Revenue.png              ← Page 5 — Revenue & Profit
-    ├── BMW_Time.png                 ← Page 6 — Time Analysis
-    ├── BMW_Quick.png                ← Page 7 — Quick Analysis
+    ├── BMW_Home.png
+    ├── BMW_Overview.png
+    ├── BMW_Model.png
+    ├── BMW_Region.png
+    ├── BMW_Revenue.png
+    ├── BMW_Time.png
+    ├── BMW_Quick.png
     └── README.md
 ```
 
@@ -206,45 +197,41 @@ This project analyzes BMW automobile sales data to uncover performance patterns 
 ## 📂 Dataset
 
 | Property | Value |
-|----------|-------|
+|---|---|
 | **Source** | BMW Sales Dataset |
 | **File** | `bmw_sales_dataset.xlsx` |
 | **Records** | 200 |
-| **Columns** | 6 (Model, Region, Units Sold, Price, Cost, Profit) |
-| **Models** | BMW X1, BMW X3, BMW X5, BMW 3 Series, BMW 5 Series, BMW 7 Series |
+| **Columns** | 6 |
+| **Models** | BMW X1, X3, X5, 3 Series, 5 Series, 7 Series |
 | **Regions** | North, South, East, West |
-| **Price Range** | $30,009 – $89,581 |
-| **Units Range** | 1 – 19 per record |
+| **Price Range** | $30,009–$89,581 |
+| **Units Range** | 1–19 per record |
 
 ---
 
 ## 🎨 Design Details
 
-| Element | Detail |
-|---------|--------|
-| **Theme** | BMW Premium Dark Blue |
-| **Background Tool** | Microsoft PowerPoint |
-| **Dashboard Size** | 1668 × 861 pixels |
-| **Primary Color** | BMW Blue `#1C69D3` |
-| **Dark Background** | Navy `#0A1929` |
-| **Profit Color** | Green `#2ECC71` |
-| **Cost Color** | Red `#E74C3C` |
-| **Text** | White `#FFFFFF` |
-| **Sidebar** | Mid Blue `#0F3460` |
+| Element | Specification |
+|---|---|
+| Theme | BMW Premium Dark Blue |
+| Design Tool | Microsoft PowerPoint |
+| Dashboard Size | 1668 × 861 px |
+| BMW Blue | `#1C69D3` |
+| Navy Background | `#0A1929` |
+| Profit | `#2ECC71` |
+| Cost | `#E74C3C` |
+| Text | `#FFFFFF` |
+| Sidebar | `#0F3460` |
 
 ---
 
 ## 🌐 Live Dashboard
 
-| Platform | Link |
-|----------|------|
-| Tableau Public | [View Live BMW Sales Dashboard](https://public.tableau.com/app/profile//viz/BMWSalesAnalytics_17828850435440/HOME) |
+🔗 [**View BMW Sales Analytics on Tableau Public**](https://public.tableau.com/app/profile//viz/BMWSalesAnalytics_17828850435440/HOME)
 
 ---
 
 ## 👤 Author
 
-**Dishant Bhere**
-Data Analyst | SQL · Power BI · Tableau · Excel · Python
-
-
+**Dishant Bhere**  
+*Data Analyst | SQL · Power BI · Tableau · Excel · Python*
